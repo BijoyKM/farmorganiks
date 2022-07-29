@@ -5,24 +5,17 @@
     border: none;
 }
 body {
-    background-color: rgb(105, 221, 186);
+    background-color: rgb(22, 190, 140);
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
+    border-bottom: 1px solid #012e26;
     color: #012e26;
     
 }
 
-ul {
-    list-style-type: none;
-    
-}
 /* header , logo and h1 */
-.topbar {
-    background-color: rgb(5, 49, 34);
-    
-}
 
-.topbarlogo {
+#topbarlogo {
     font-size: 300%; 
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -32,4 +25,38 @@ ul {
 
 nav{
     float:right;
+    font-size: 100%;
+    letter-spacing: 3px;
+}
+
+#navmenu li {
+    float:left;
+    list-style-type: none;
+    margin-right: 30px;
+    font-size: larger;
+}
+
+#topbarlogo, #navmenu {
+    line-height: 80px;
+}
+
+#navmenu a {
+    text-decoration: none;
+}
+
+#navmenu a:hover {
+    border-bottom: 1px solid #012e26;
+}
+
+.activemenu {
+    border-bottom: 1px solid #012e26;
+}
+
+/* hero image */
+
+#hero-image {
+    height: 700px;
+    width: 100%;
+    background: url(/assets/images/hero.jpg) no-repeat center center;
+    overflow: hidden;
 }
