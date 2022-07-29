@@ -9,7 +9,7 @@ body {
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
     border-bottom: 1px solid #012e26;
-    color: #012e26;
+    color: black;
     
 }
 
@@ -59,4 +59,22 @@ nav{
     width: 100%;
     background: url(/assets/images/hero.jpg) no-repeat center center;
     overflow: hidden;
+}
+
+/* welcome text */
+
+#welcome-text {
+    font-size: 5rem;
+    text-align: center;
+    margin: 50px 50px 20px;
+}
+
+#welcome-box {
+    color:aqua;
+    background-color: rgba(4, 75, 7, 0.493);
+   padding: 50px;
+   margin: 200px;
+   border: 10px solid rgb(22, 190, 140);
+    align-items: center;
+    
 }
