@@ -21,6 +21,7 @@ body {
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
     float: left;
+    margin: 10px
 }
 
 nav{
@@ -55,7 +56,8 @@ nav{
 /* hero image */
 
 #hero-image {
-    height: 700px;
+    
+    height: 75rem;
     width: 100%;
     background: url(/assets/images/hero.jpg) no-repeat center center;
     overflow: hidden;
@@ -64,17 +66,18 @@ nav{
 /* welcome text */
 
 #welcome-text {
-    font-size: 5rem;
+    font-size: 500%;
     text-align: center;
-    margin: 50px 50px 20px;
+    margin: 50px 50px 50px;
 }
 
 #welcome-box {
     color:aqua;
     background-color: rgba(4, 75, 7, 0.493);
    padding: 50px;
-   margin: 200px;
+   margin: 350px;
    border: 10px solid rgb(22, 190, 140);
     align-items: center;
-    
+    border-radius: 50px;
+   transform: translate(5%, -15%);
 }
