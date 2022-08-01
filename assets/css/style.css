@@ -81,3 +81,11 @@ nav{
     border-radius: 50px;
    transform: translate(5%, -15%);
 }
+
+/* about us text */
+
+#aboutus-text {
+        font-size: 200%;
+        text-align: center;
+        margin: 50px 50px 50px;
+}
