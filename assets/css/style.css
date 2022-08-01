@@ -91,7 +91,7 @@ nav{
         margin: 50px 50px 50px;
 }
 
-/* shop and trip section */
+/* shop produce section */
 
 #menu-image {
     height: 75rem;
@@ -100,7 +100,7 @@ nav{
     overflow: hidden;
 }
 
-#shop-trip {
+#shop-produce {
     font-size: 500%;
         text-align: center;
         margin: 50px 50px 50px;
@@ -163,4 +163,12 @@ nav{
     font-size: 1.5em;
     letter-spacing: 1px;
     margin-top: 5%;
+}
+
+/* visit farms section */
+
+#visit-farms {
+    font-size: 200%;
+        text-align: center;
+        margin: 50px 50px 50px;
 }
