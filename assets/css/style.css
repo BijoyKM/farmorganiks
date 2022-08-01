@@ -105,3 +105,62 @@ nav{
         text-align: center;
         margin: 50px 50px 50px;
 }
+
+#veggie-box {
+    color:aqua;
+    width:20%;
+    height:45%;
+    background-color: rgba(4, 75, 7, 0.493);
+   padding: 50px;
+   margin: 350px;
+   border: 10px solid rgb(22, 190, 140);
+   box-shadow: 5px 10px;
+    align-items: center;
+    border-radius: 50px;
+   transform: translate(-20%, -45%);
+}
+
+#veggie-box h3 {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 5%;
+}
+#veggies li {
+    font-size: inherit;
+    padding-top: 0%;
+}
+
+#fruit-box {
+    color:aqua;
+    width:20%;
+    height:45%;
+    background-color: rgba(4, 75, 7, 0.493);
+   padding: 50px;
+   margin: 350px;
+   border: 10px solid rgb(22, 190, 140);
+   box-shadow: 5px 10px;
+    align-items: center;
+    border-radius: 50px;
+   transform: translate(150%, -198%);
+   display: flex;
+}
+
+#fruit-box h3 {
+    font-size: 250%;
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+#veggies {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-top: 1%;
+}
+
+
+#fruits {
+    font-size: 1.5em;
+    letter-spacing: 1px;
+    margin-top: 5%;
+}
