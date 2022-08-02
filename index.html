@@ -97,10 +97,31 @@
 
     <section id="farm-videos">
         <h2>Farming Videos</h2>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/AIeWEa4hXck" title="XXL Harvest Special | Franzen Agriculture | Potatoes & carrots | Planting tulips & wheat" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <iframe width="1280" height="720" src="https://www.youtube.com/embed/2R_rhpEBoww" title="Carrot Harvesting Machine and Carrot Packing Machine - Mordem Agriculture Techonology" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/AIeWEa4hXck" title="XXL Harvest Special | Franzen Agriculture | Potatoes & carrots | Planting tulips & wheat" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="1280" height="720" src="https://www.youtube.com/embed/2R_rhpEBoww" title="Carrot Harvesting Machine and Carrot Packing Machine - Mordem Agriculture Techonology" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </section>
-    <section><h2 id="contact-us">Contact Us</h2></section>
+    <section class="form-section"><h2 id="contact-us">Contact Us</h2><form method="POST" action="https://formdump.codeinstitute.net/" class="contact-form">
+        <h2>How can we help you today!</h2>
+
+    <label for="collect">Order for Collection</label>
+        <input type="radio" id="collect" name="form-selection" value="collect" required>
+        <label for="book-trip">Farm Trip Booking</label>
+        <input type="radio" id="book-trip" name="form-selection" value="book-trip" required>
+        <label for="feedback">Feedback</label>
+        <input type="radio" id="feedback" name="form-selection" value="feedback" required>
+
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" required class="text-input" >
+        
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" required class="text-input" >
+        
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required class="text-input" >
+        <label for="text-box">Please provide more information in order to assist you better</label>
+        <textarea class="text-input" cols="50" rows="8" name="text-box"></textarea>
+        <input class="submit-button" type="submit" value="Please Submit" >
+    </form></section>
     <footer>
     <div>
         <h2>Opening Hours</h2>
