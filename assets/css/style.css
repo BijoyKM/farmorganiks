@@ -67,7 +67,7 @@ nav{
 
 #hero-image {
     
-    height: 75rem;
+    height: 710px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center;
     overflow: hidden;
@@ -105,7 +105,7 @@ nav{
 #menu-image {
     height: 75rem;
     width: 100%;
-    background: url(../images/shopcorn.jpg) no-repeat center center;
+    background: url(../images/fruit-veg.jpg) no-repeat center center;
     overflow: hidden;
 }
 
