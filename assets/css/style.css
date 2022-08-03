@@ -23,6 +23,8 @@ body {
     display: flex;
 	flex-wrap: wrap;
 	justify-content:space-between;
+    /* padding-top: 50px; */
+
 }
 #topbarlogo {
     
@@ -64,32 +66,54 @@ nav{
 }
 
 /* hero image */
+#hero-welcome-outer {
+    /* position:relative;
+    overflow: hidden; */
+    padding-top: 100px;
+    
+}
 
 #hero-image {
     
     height: 710px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center;
-    overflow: hidden;
+    /* display: flex;
+    justify-content: center;
+  align-items: center; */
 }
 
 /* welcome text */
 
-#welcome-text {
-    font-size: 500%;
-    text-align: center;
-    margin: 50px 50px 50px;
-}
 
-#welcome-box {
-    color:aqua;
+
+#welcome-text {
+    color: #00ff1f;
     background-color: rgba(4, 75, 7, 0.493);
-   padding: 50px;
-   margin: 350px;
-   border: 10px solid rgb(22, 190, 140);
+    border: 10px solid rgb(22, 190, 140);
+    border-radius: 78px;
+    padding: 37px;
+    margin: -16px;
+    font-size: 200%;
+    width: fit-content;
+    margin: -308px 145px 115px;
+  /* position: relative; */
+    /* display: table-cell;
+    height: 100%;
+    text-align: center;
+    vertical-align: middle;
+    
+    
+    
+     top:10%;
+    left:50%;
+    
+    
+   
+   
     align-items: center;
-    border-radius: 50px;
-   transform: translate(5%, -15%);
+    
+   transform: translate(-100%, 130%); */
 }
 
 /* about us text */
