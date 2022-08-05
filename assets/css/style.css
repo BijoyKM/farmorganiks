@@ -132,19 +132,22 @@ nav{
     display: flex;
 	justify-content: space-around;
 	align-items: center;
+    
 }
 
 #shop-produce {
     font-size: 500%;
         text-align: center;
-        margin: 0px 50px 50px;
+        /* margin: -20%; */
         top: 200px;
+        /* line-height: 275px */
+        line-height: 350%;
 }
 
 .veggie-box {
     color:aqua;
     width:fit-content;
-    height:45%;
+    height:fit-content;
     background-color: rgba(4, 75, 7, 0.493);
    /* padding: 50px;
    margin: 350px; */
@@ -157,6 +160,7 @@ nav{
     padding-right: 40px;
     text-align: center;
     
+    
 }
 
 .veggie-box h3 {
@@ -167,22 +171,27 @@ nav{
 .veggies li {
     font-size: inherit;
     padding-top: 0%;
-    text-align: center;
+    text-align: left;
+    list-style-type: none;
 }
 
 .fruit-box {
     color:aqua;
     width:fit-content;
-    height:45%;
+    height:fit-content;
     background-color: rgba(4, 75, 7, 0.493);
-   padding: 50px;
-   margin: 350px;
+    padding-left: 50px;
+    padding-right: 40px;
+    text-align: center;
+   /* padding: 50px;
+   margin: 350px; */
    border: 10px solid rgb(22, 190, 140);
    box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
    /* transform: translate(150%, -198%); */
    /* display: flex; */
+   
 }
 
 .fruit-box h3 {
@@ -203,6 +212,8 @@ nav{
     font-size: 1.5em;
     letter-spacing: 1px;
     margin-top: 5%;
+    list-style-type: none;
+    text-align: left;
 }
 
 /* visit farms section */
@@ -211,6 +222,11 @@ nav{
     font-size: 200%;
         text-align: center;
         margin: 50px 50px 50px;
+        
+}
+#visit-farms h2 {
+    font-size: 250%;
+    line-height: 350%;
 }
 
 /* gallery */
