@@ -209,10 +209,12 @@ nav{
     line-height: 0;
     column-count: 4;
     column-gap: 0;
+    row-gap: 0;
+
 }
 
 #farm-trip-gallery > img {
-    width: 100%;
+    /* width: 100%; */
 }
 
 /* farming videos */
