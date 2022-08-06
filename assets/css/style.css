@@ -67,11 +67,7 @@ nav{
 
 /* hero image */
 #hero-welcome-outer {
-    /* position:relative;
-    overflow: hidden; */
     padding-top: 100px;
-    
-    
 }
 
 .hero-image {
@@ -103,16 +99,7 @@ nav{
     padding-right: 40px;
     text-align: center;
     align-items: center;
-    /* padding-top: 20px; */
-    /* bottom: 30px;
-    right: 150px;
-    float: right;
-    
-    
-    
-    margin: -308px 145px 115px; */
-     
-}
+    }
 
 /* about us text */
 
@@ -138,9 +125,7 @@ nav{
 #shop-produce {
     font-size: 500%;
         text-align: center;
-        /* margin: -20%; */
         top: 200px;
-        /* line-height: 275px */
         line-height: 350%;
 }
 
@@ -149,18 +134,13 @@ nav{
     width:fit-content;
     height:fit-content;
     background-color: rgba(4, 75, 7, 0.493);
-   /* padding: 50px;
-   margin: 350px; */
    border: 10px solid rgb(22, 190, 140);
    box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
-   /* transform: translate(-20%, -45%); */
    padding-left: 50px;
     padding-right: 40px;
     text-align: center;
-    
-    
 }
 
 .veggie-box h3 {
@@ -183,15 +163,10 @@ nav{
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
-   /* padding: 50px;
-   margin: 350px; */
    border: 10px solid rgb(22, 190, 140);
    box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
-   /* transform: translate(150%, -198%); */
-   /* display: flex; */
-   
 }
 
 .fruit-box h3 {
