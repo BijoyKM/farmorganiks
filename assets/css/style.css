@@ -210,17 +210,66 @@ nav{
     column-count: 4;
     column-gap: 0;
     row-gap: 0;
-
+    clear: both;
 }
 
 #farm-trip-gallery > img {
-    /* width: 100%; */
+    width: 100%;
 }
 
 /* farming videos */
 
-#farm-videos {
-    font-size: 200%;
-        text-align: center;
-        margin: 50px 50px 50px;
+.farm-videos {
+    display: flex;
+	justify-content: center;
+	align-items: center;
+    flex-direction: column;
 }
+
+.farm-videos h2 {
+    font-size: 400%;
+        text-align: center;
+        /* margin: 50px 50px 50px;
+        font-size: 250%; */
+        line-height: 350%;
+}
+.video-box { 
+    display: flex;
+  justify-content: center;
+  width:100%;
+  max-width: 800px;
+  margin: 3em auto;
+  border: 6px solid black;
+}
+
+.video-first {
+    
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+.video-second {
+    max-width: 100%;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+}
+
+.video-first iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .video-second iframe{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
