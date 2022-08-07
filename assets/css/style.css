@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Oswald&display=swap");
+
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
+
 body {
     background-color: rgb(22, 190, 140);
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
     border-bottom: 1px solid #012e26;
     color: black;
-    
+
 }
 
 /* header , logo and h1 */
@@ -19,16 +21,17 @@ body {
     top: 0;
     width: 100%;
     position: fixed;
-    background-color:  rgb(22, 190, 140);
+    background-color: rgb(22, 190, 140);
     display: flex;
-	flex-wrap: wrap;
-	justify-content:space-between;
+    flex-wrap: wrap;
+    justify-content: space-between;
     padding-bottom: 10px;
 
 }
+
 #topbarlogo {
-    
-    font-size: 300%; 
+
+    font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
@@ -36,20 +39,21 @@ body {
     margin: 10px;
 }
 
-nav{
-    float:right;
+nav {
+    float: right;
     font-size: 100%;
     letter-spacing: 3px;
 }
 
 #navmenu li {
-    float:left;
+    float: left;
     list-style-type: none;
     margin-right: 30px;
     font-size: larger;
 }
 
-#topbarlogo, #navmenu {
+#topbarlogo,
+#navmenu {
     line-height: 80px;
 }
 
@@ -71,13 +75,13 @@ nav{
 }
 
 .hero-image {
-   
+
     height: 710px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center;
     display: flex;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
 }
 
 /* welcome text */
@@ -85,28 +89,28 @@ nav{
 
 
 .welcome-text {
-   
+
     color: #00ff1f;
     background-color: rgba(4, 75, 7, 0.493);
     border: 10px solid rgb(22, 190, 140);
     border-radius: 50px;
     box-shadow: 5px 10px;
     font-size: 300%;
-    width:fit-content;
+    width: fit-content;
     height: 250px;
-    
+
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
     align-items: center;
-    }
+}
 
 /* about us text */
 
 #aboutus-text {
-        font-size: 200%;
-        text-align: center;
-        margin: 50px 50px 50px;
+    font-size: 200%;
+    text-align: center;
+    margin: 50px 50px 50px;
 }
 
 /* shop produce section */
@@ -117,28 +121,28 @@ nav{
     background: url(../images/fruit-veg.jpg) no-repeat center center;
     overflow: hidden;
     display: flex;
-	justify-content: space-around;
-	align-items: center;
-    
+    justify-content: space-around;
+    align-items: center;
+
 }
 
 #shop-produce {
     font-size: 500%;
-        text-align: center;
-        top: 200px;
-        line-height: 350%;
+    text-align: center;
+    top: 200px;
+    line-height: 350%;
 }
 
 .veggie-box {
-    color:aqua;
-    width:fit-content;
-    height:fit-content;
+    color: #00ff1f;
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(4, 75, 7, 0.493);
-   border: 10px solid rgb(22, 190, 140);
-   box-shadow: 5px 10px;
+    border: 10px solid rgb(22, 190, 140);
+    box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
-   padding-left: 50px;
+    padding-left: 50px;
     padding-right: 40px;
     text-align: center;
 }
@@ -148,6 +152,7 @@ nav{
     text-align: center;
     margin-top: 5%;
 }
+
 .veggies li {
     font-size: inherit;
     padding-top: 0%;
@@ -156,15 +161,15 @@ nav{
 }
 
 .fruit-box {
-    color:aqua;
-    width:fit-content;
-    height:fit-content;
+    color: #00ff1f;
+    width: fit-content;
+    height: fit-content;
     background-color: rgba(4, 75, 7, 0.493);
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
-   border: 10px solid rgb(22, 190, 140);
-   box-shadow: 5px 10px;
+    border: 10px solid rgb(22, 190, 140);
+    box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
 }
@@ -195,10 +200,11 @@ nav{
 
 #visit-farms {
     font-size: 200%;
-        text-align: center;
-        margin: 50px 50px 50px;
-        
+    text-align: center;
+    margin: 50px 50px 50px;
+
 }
+
 #visit-farms h2 {
     font-size: 250%;
     line-height: 350%;
@@ -213,7 +219,7 @@ nav{
     clear: both;
 }
 
-#farm-trip-gallery > img {
+#farm-trip-gallery>img {
     width: 100%;
 }
 
@@ -221,83 +227,109 @@ nav{
 
 .farm-videos {
     display: flex;
-	justify-content: center;
-	align-items: center;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
 }
 
 .farm-videos h2 {
     font-size: 400%;
-        text-align: center;
-        /* margin: 50px 50px 50px;
+    text-align: center;
+    /* margin: 50px 50px 50px;
         font-size: 250%; */
-        line-height: 350%;
+    line-height: 350%;
 }
-.video-box { 
+
+.video-box {
     display: flex;
-  justify-content: center;
-  width:100%;
-  max-width: 800px;
-  margin: 3em auto;
-  border: 6px solid black;
+    justify-content: center;
+    width: 100%;
+    max-width: 800px;
+    margin: 3em auto;
+    border: 6px solid black;
 }
 
 .video-first {
-    
+
     max-width: 100%;
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
 }
+
 .video-second {
-    max-width:100%;
+    max-width: 100%;
     position: relative;
     width: 100%;
-    padding-bottom: 56.25%; 
+    padding-bottom: 56.25%;
     height: 0;
 }
 
-.video-first iframe{ 
+.video-first iframe {
     position: absolute;
-    top:0;
+    top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-  }
-
-  .video-second iframe{
-    position: absolute;
-    top:0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  } 
-
-  #contact-us {
-    font-size: 500%;
-        text-align: center;
-        top: 0;
-        line-height: 850%;
-    /* font-size: 200%; */
-    text-align: center;
-    margin: 50px 50px 50px; 
 }
 
+.video-second iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+/* contact us */
+
+#contact-us {
+    font-size: 500%;
+    text-align: center;
+    top: 0;
+    line-height: 850%;
+    /* font-size: 200%; */
+    text-align: center;
+    margin: 50px 50px 50px;
+}
+
+#contact-us>h2 {
+    text-align: center;
+    margin: 50px 50px 50px;
+}
+
+/* form section */
+.contact-container {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.contact {
+    display: flex;
+	justify-content: space-around;
+}
 
 /* social networks */
 
-.social-networks {
+.social-networks ul {
     text-align: center;
-}
-
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between; */
+    
+} 
 .social-networks li {
     display: inline;
-}
+    list-style-type: none;
+    
+} 
 
 .social-networks i {
-    font-size: 160%;
-    margin: 1%;
-    padding: 5%;
-    color:  #3a3a3a;
+    text-align: center;
+    font-size: 200%;
+    margin: 0.75rem;
+    padding:0;
+    color: #3a3a3a;
+    
 }
