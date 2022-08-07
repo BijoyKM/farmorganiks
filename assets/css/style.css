@@ -283,11 +283,13 @@ nav {
 }
 /* contact us */
 
+
+
 #contact-us {
     font-size: 500%;
     text-align: center;
     top: 0;
-    line-height: 850%;
+    line-height: 5em;
     /* font-size: 200%; */
     text-align: center;
     margin: 50px 50px 50px;
@@ -298,18 +300,47 @@ nav {
     margin: 50px 50px 50px;
 }
 
+.form-address-container{
+    display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
 /* form section */
+
 .contact-container {
+    background-color: rgba(4, 75, 7, 0.493);
+    width: fit-content;
+    height: fit-content;
     display: flex;
     flex-direction: column;
-
+    border: 10px solid rgb(22, 190, 140);
+    box-shadow: 5px 10px;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
 }
+
 
 .contact {
     display: flex;
 	justify-content: space-around;
 }
 
+/* location map */
+
+.address-map {
+    background-color: rgba(4, 75, 7, 0.493);
+    width: fit-content;
+    height: fit-content;
+    border: 10px solid rgb(22, 190, 140);
+    box-shadow: 5px 10px;
+    align-items: center;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-right: 40px;
+}
 /* social networks */
 
 .social-networks ul {
@@ -332,4 +363,11 @@ nav {
     padding:0;
     color: #3a3a3a;
     
+}
+.social-networks h2 {
+    text-align: center;
+}
+
+.address h2{
+
 }
