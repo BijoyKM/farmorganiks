@@ -330,14 +330,44 @@ nav {
     letter-spacing: 1px;
 }
 
+.name-item {
+    font-size: 100%;
+    font-weight: 600;
+    width: 100%;
+    
+}
 
+.text-item{
+    height: 1.50rem;
+    border: 2px solid black;
+}
+.text-item:hover {
+    border-color: #ffffff;
+    border: 2px solid rgb(22, 190, 140);
+}
 
-.contact {
+.email-item {
+    font-size: 100%;
+    font-weight: 600;
+    width: 100%;
+}
+
+.text-box-item {
+    border: 2px solid black;
+    
+}
+
+.text-box-item:hover {
+    border-color: #ffffff;
+    border: 2px solid rgb(22, 190, 140);
+}
+
+.footer-container {
     display: flex;
 	justify-content: space-around;
     
 }
-.contact h2 {
+.footer-container h2 {
     font-size: 2em;
     letter-spacing: 1px;
 }
