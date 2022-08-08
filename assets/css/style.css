@@ -444,7 +444,7 @@ footer p {
 }
 
 /* Media Queries */
-
+/* Media query for devices with max width 1200px and below */
 @media screen and (max-width: 1200px) {
     
     .menu-image {
@@ -463,5 +463,14 @@ footer p {
     }
     .veggie-box h3 {
         margin-top: 0;
+    }
+    .form-address-container {
+        background-size: cover;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
     }
 }
