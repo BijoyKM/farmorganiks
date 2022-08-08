@@ -474,3 +474,30 @@ footer p {
         align-content: center;
     }
 }
+
+/* Media query for devices with max width 950px and below */
+@media screen and (max-width: 950px) {
+    .hero-image {
+        background-size: cover;
+        height: 950px;
+    }
+    .welcome-text {
+        width: fit-content;
+        height: fit-content;
+        padding: 50px;
+        font-size: 200%;
+
+    }
+    #farm-trip-gallery {
+        column-count: 2;
+    }
+
+    .video-box {
+        max-width: 500px;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
