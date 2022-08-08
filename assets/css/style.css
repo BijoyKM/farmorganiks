@@ -385,6 +385,16 @@ nav {
     text-align: center;
 }
 
-.address h2{
+footer {
+padding-top: 10px;
+padding-bottom: 10px;
+}
 
+footer h2 {
+    font-size: 1em;
+}
+
+footer p {
+    font-size: 1.25em;
+    letter-spacing: 1px;
 }
