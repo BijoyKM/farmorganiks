@@ -572,22 +572,28 @@ footer p {
         margin-right: 30px;
         font-size:larger;
     }
-    .hero-image {
+    /* .hero-image {
         width: 350px;
-        height: 850px;
-    }
+        height: 100%;
+    } */
     
 
     .veggie-box h3 {
-        font-size: 150%;
+        font-size: 100%;
     }
     .veggies {
         font-size: 1.25em;
     }
     .fruit-box h3 {
-        font-size: 150%;
+        font-size: 100%;
     }
     .fruits {
         font-size: 1.25em;
+        margin-top: 1%;
+        
+    }
+    .fruits li {
+        padding: 0;
+        text-align: left;
     }
 }
