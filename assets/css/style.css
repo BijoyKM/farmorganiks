@@ -7,11 +7,11 @@
 }
 
 body {
-    background-color: rgb(22, 190, 140);
+    background-color:#ffffff;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
     border-bottom: 1px solid #012e26;
-    color: black;
+    color: #003300;
 
 }
 
@@ -21,7 +21,7 @@ body {
     top: 0;
     width: 100%;
     position: fixed;
-    background-color: rgb(22, 190, 140);
+    background-color:#ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,7 +30,10 @@ body {
 }
 
 #topbarlogo {
+    color:#003300;
 
+
+/* color: #012e26; */
     font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -40,12 +43,14 @@ body {
 }
 
 nav {
+    
     float: right;
     font-size: 100%;
     letter-spacing: 3px;
 }
 
 #navmenu li {
+    
     float: left;
     list-style-type: none;
     margin-right: 30px;
@@ -59,6 +64,8 @@ nav {
 
 #navmenu a {
     text-decoration: none;
+    color:#003300;
+
 }
 
 #navmenu a:hover {
@@ -89,9 +96,11 @@ nav {
 
 
 .welcome-text {
-
-    color: #00ff1f;
-    background-color: rgba(4, 75, 7, 0.493);
+    
+color: #003300;
+background-color: rgba(240, 127, 22, 0.493);
+    /* color: #00ff1f; */
+    /* background-color: rgba(4, 75, 7, 0.493); */
     border: 10px solid rgb(22, 190, 140);
     border-radius: 50px;
     box-shadow: 5px 10px;
@@ -135,10 +144,10 @@ nav {
 }
 
 .veggie-box {
-    color: #00ff1f;
+    color: #003300;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(4, 75, 7, 0.493);
+    background-color: rgba(153, 255, 153, 0.500);
     border: 10px solid rgb(22, 190, 140);
     box-shadow: 5px 10px;
     align-items: center;
@@ -162,10 +171,11 @@ nav {
 }
 
 .fruit-box {
-    color: #00ff1f;
+    color: #003300;
     width: fit-content;
     height: fit-content;
-    background-color: rgba(4, 75, 7, 0.493);
+    background-color: rgba(153, 255, 153, 0.500);
+    /* background-color: rgba(4, 75, 7, 0.493); */
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
@@ -248,6 +258,7 @@ nav {
     max-width: 800px;
     margin: 3em auto;
     border: 6px solid black;
+    overflow: hidden;
 }
 
 .video-first {
@@ -257,6 +268,8 @@ nav {
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
+    overflow: hidden;
+    display: block;
 }
 
 .video-second {
@@ -265,6 +278,7 @@ nav {
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
+    overflow: hidden;
 }
 
 .video-first iframe {
