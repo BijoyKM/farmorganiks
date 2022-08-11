@@ -25,21 +25,19 @@ body {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 
 }
 
 #topbarlogo {
     color:#003300;
-
-
 /* color: #012e26; */
     font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
     font-family: 'Oswald', sans-serif;
     float: left;
-    margin: 10px;
+    margin: 5px;
 }
 
 nav {
@@ -54,12 +52,12 @@ nav {
     float: left;
     list-style-type: none;
     margin-right: 30px;
-    font-size:xx-large;
+    font-size:larger;
 }
 
 #topbarlogo,
 #navmenu {
-    line-height: 80px;
+    line-height: 50px;
 }
 
 #navmenu a {
@@ -78,12 +76,12 @@ nav {
 
 /* hero image */
 #hero-welcome-outer {
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .hero-image {
 
-    height: 710px;
+    height: 600px;
     width: 100%;
     background: url(../images/hero.jpg) no-repeat center center;
     display: flex;
@@ -104,10 +102,9 @@ background-color: rgba(240, 127, 22, 0.493);
     border: 10px solid rgb(22, 190, 140);
     border-radius: 50px;
     box-shadow: 5px 10px;
-    font-size: 300%;
+    font-size: 200%;
     width: fit-content;
-    height: 250px;
-
+    height: fit-content;
     padding-left: 50px;
     padding-right: 40px;
     text-align: center;
@@ -117,15 +114,15 @@ background-color: rgba(240, 127, 22, 0.493);
 /* about us text */
 
 #aboutus-text {
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
-    margin: 50px 50px 50px;
+    margin: 25px 50px;
 }
 
 /* shop produce section */
 
 .menu-image {
-    height: 710px;
+    height: 600px;
     width: 100%;
     background: url(../images/fruit-veg.jpg) no-repeat center center;
     overflow: hidden;
@@ -137,9 +134,9 @@ background-color: rgba(240, 127, 22, 0.493);
 
 #shop-produce {
    
-    font-size: 500%;
+    font-size: 250%;
     top: 200px;
-    line-height: 350%;
+    line-height: 425%;
     text-align: center;
 }
 
@@ -152,8 +149,8 @@ background-color: rgba(240, 127, 22, 0.493);
     box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
-    padding-left: 50px;
-    padding-right: 40px;
+    padding-left: 25px;
+    padding-right: 20px;
     text-align: center;
 }
 
@@ -176,8 +173,8 @@ background-color: rgba(240, 127, 22, 0.493);
     height: fit-content;
     background-color: rgba(153, 255, 153, 0.500);
     /* background-color: rgba(4, 75, 7, 0.493); */
-    padding-left: 50px;
-    padding-right: 40px;
+    padding-left: 25px;
+    padding-right: 20px;
     text-align: center;
     border: 10px solid rgb(22, 190, 140);
     box-shadow: 5px 10px;
@@ -210,14 +207,14 @@ background-color: rgba(240, 127, 22, 0.493);
 /* visit farms section */
 
 #visit-farms {
-    font-size: 200%;
+    font-size: 150%;
     text-align: center;
-    margin: 50px 50px 50px;
+    margin: 25px 50px 25px;
 
 }
 
 #visit-farms h2 {
-    font-size: 250%;
+    font-size: 200%;
     line-height: 350%;
 }
 
@@ -244,11 +241,11 @@ background-color: rgba(240, 127, 22, 0.493);
 }
 
 .farm-videos h2 {
-    font-size: 400%;
+    font-size: 250%;
     text-align: center;
     /* margin: 50px 50px 50px;
         font-size: 250%; */
-    line-height: 350%;
+    line-height: 250%;
 }
 
 .video-box {
@@ -301,27 +298,28 @@ background-color: rgba(240, 127, 22, 0.493);
 
 
 #contact-us {
-    font-size: 350%;
+    font-size: 275%;
     text-align: center;
     top: 0;
-    line-height: 5em;
+    line-height: 4em;
     /* font-size: 200%; */
     text-align: center;
-    margin: 0 50px 50px;
+    margin: 0 50px 0;
     padding: 0;
 }
 
 #contact-us>h2 {
     text-align: center;
-    margin: 50px 50px 50px;
+    margin: 50px 50px;
 }
 
 .form-address-container{
-    height: 700px;
+    height: 600px;
     width:100%;
     background: url(../images/contact.jpg) no-repeat center center;
     overflow: hidden;
     display: flex;
+    flex-direction: row;
 	justify-content: space-evenly;
 	align-items: center;
 }
@@ -332,8 +330,8 @@ background-color: rgba(240, 127, 22, 0.493);
     
     background-color: rgba(208, 221, 159, 0.493);
     
-    width: fit-content;
-    height: fit-content;
+    width: 80%;
+    height: 50%;
     display: flex;
     flex-direction: column;
     border: 10px solid rgb(22, 190, 140);
@@ -407,15 +405,21 @@ background-color: rgba(240, 127, 22, 0.493);
 .address-map {
     
     background-color: rgba(208, 221, 159, 0.493);
-    width: fit-content;
-    height: fit-content;
+    width:min-content;
+    height:min-content;
     border: 10px solid rgb(22, 190, 140);
     box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
-    padding: 20px 40px 50px 50px;
-    font-size: 1.25em;
+    padding: 10px 20px 25px 25px;
+    
+}
+
+.address-map h2 {
+    font-size: 2em;
     letter-spacing: 1px;
+    margin: 0;
+    text-align: center;
 }
 /* social networks */
 
