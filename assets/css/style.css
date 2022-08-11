@@ -594,10 +594,20 @@ footer p {
     }
 
     .contact-container {
-        width: max-content;
-    height: fit-content;
-    background-size: cover;
+    width: 17rem;
+    height: 33rem;
+    padding: 0.25rem 0 0.25rem 1rem;
     }
+
+    .contact-container h2 {
+        font-size: 1.25rem;
+    }
+    .text-box-item {
+        width: 75%;
+        height: 80%;
+        
+    }
+    
     }
 
 /* Media query for devices with max width 375px and below */
