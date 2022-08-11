@@ -466,12 +466,12 @@ footer p {
 /* Media query for devices with max width 1200px and below */
 @media screen and (max-width: 1200px) {
     
-    #shop-produce {
+    /* #shop-produce {
     font-size: 500%;
     top: 200px;
     line-height: 350%;
-    }
-    .menu-image {
+    } */
+    /* .menu-image {
         background-size: cover;
         height: 1200px;
         display: flex;
@@ -487,8 +487,9 @@ footer p {
     }
     .veggie-box h3 {
         margin-top: 0;
-    }
+    } */
     .form-address-container {
+ 
         background-size: cover;
         height: 1200px;
         display: flex;
@@ -497,6 +498,10 @@ footer p {
         align-items: center;
         align-content: center;
     }
+    .contact-container {
+        width: 80%;
+        height: 90%;
+
 }
 
 /* Media query for devices with max width 950px and below */
@@ -515,6 +520,23 @@ footer p {
         padding-top: 200%;
         
     } */
+    .menu-image {
+        background-size: cover;
+        height: 1200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+        margin: 0 auto;
+    }
+    .veggie-box {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .veggie-box h3 {
+        margin-top: 0;
+    }
     #farm-trip-gallery {
         column-count: 2;
     }
