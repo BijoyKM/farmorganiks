@@ -628,7 +628,16 @@ footer p {
         width: 350px;
         height: 100%;
     } */
-    
+    #aboutus-text {
+        margin: 10px 50px;
+        
+    }
+
+    #shop-produce {
+        font-size: 250%;
+        padding-top: 10rem;
+        line-height: 4rem;
+    }
 
     .veggie-box h3 {
         font-size: 100%;
@@ -647,5 +656,15 @@ footer p {
     .fruits li {
         padding: 0;
         text-align: left;
+    }
+
+    #visit-farms {
+        padding-top: 10rem;
+        /* line-height: 2rem; */
+    
+    }
+
+    #contact-us {
+        padding-top: 10rem;
     }
 }
