@@ -605,11 +605,13 @@ footer p {
     .text-box-item {
         width: 75%;
         height: 80%;
-        
     }
-    
+    .address-map {
+        width: 17rem;
+        height: 33rem;
+        padding: 0.25rem 1rem 0.25rem 1rem;
     }
-
+}
 /* Media query for devices with max width 375px and below */
 @media screen and (max-width: 375px) {
     #topbarlogo {
