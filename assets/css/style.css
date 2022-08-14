@@ -454,6 +454,10 @@ footer p {
     font-size: 1.25em;
     letter-spacing: 1px;
 }
+/* disclaimer */
+.disc-text {
+    text-align: center;
+}
 
 /* Media Queries */
 /* Media query for devices with max width 1200px and below */
