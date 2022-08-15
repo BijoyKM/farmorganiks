@@ -6,9 +6,9 @@ This is a website for a fictional, family owned farm which only harvests organic
 The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmorganiks)
 
 # Index – Table of Contents
-- [User Experience (UX)](/README.md)
-- [Features](/README.md)
-- Design
+- [User Experience (UX)](#user-experience-ux)
+- [Features](#features)
+- [Design](#design)
 - Technologies Used
 - Testing
 - Deployment
@@ -16,6 +16,28 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 
 # User Experience (UX)
 ## User Stories
+* ## As a Website Owner I want:
+1. The website to provide clear and concise information about the organic farm business, the produce with prices and the farm trip information.
+2. The website should allow customer to contact the business for placing order, booking farm trip or providing feedback.
+3. The website should help in providing the online platform so new and old customer could connect which in turn increase the walk ins.
+
+* ## As a Website User I want:
+1. To easily understand the main purpose of the site and learn more about the business.
+2. To get information about the different produce and prices.
+3. To get information about the Farm trips.
+4. To get the contact information of the business.
+5. To place order for Collection or book a farm trip or provide a feedback to the business.
+6. To be able to check opening times quickly and easily.
+
+* ## As a Returning Website User I want:
+1. To place order for Collection or book a farm trip or provide a feedback to the business.
+2. To be able to check opening times quickly and easily.
+
+# 1. Strategy
+* The main purpose to create this website is to provide the local customers information of the business, the organic produce harvested on the farm. 
+* Also with the help of the website, the business can bring in more customers to the farm to experience healthy and organic way of life.
+
+# 2. Scope
 
 
 # Features
