@@ -8,7 +8,7 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 # Index – Table of Contents
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
-- Technologies Used
+- [Technologies Used](#tecnologies-used)
 - Testing
 - Deployment
 - Credits
@@ -17,8 +17,8 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 ## User Stories
 * ## As a Website Owner I want:
 1. The website to provide clear and concise information about the organic farm business, the produce with prices and the farm trip information.
-2. The website should allow customer to contact the business for placing order, booking farm trip or providing feedback.
-3. The website should help in providing the online platform so new and old customer could connect which in turn increase the walk ins.
+2. The website allow customer to contact the business for placing order, booking farm trip or providing feedback.
+3. The website help in providing the online platform so new and old customer could connect which in turn increase the walk ins.
 
 * ## As a Website User I want:
 1. To easily understand the main purpose of the site and learn more about the business.
@@ -68,3 +68,19 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 'Lato' and 'Oswald' fonts are used for this website and were imported from Google fonts.
 
 # Features
+# Tecnologies Used
+
+* ## Languages
+1. HTML
+2. CSS
+
+* ## Misc. Software
+* [Google Fonts](https://fonts.google.com/)  'Lato' and 'Oswald' fonts are used throughout the website.
+* [Google Maps](https://maps.google.com/) Location map is used from Google Maps.
+* [Font Awesome](https://fontawesome.com/) Social media icons are downloaded from Font Awesome.
+* [Balsamiq](https://balsamiq.com/) Wireframes are built in Basamiq.
+* [Gitpod](https://gitpod.io/) Gitpod was used as environment, and code was pushed to Github.It is used for version control as well as it allows to commit the code at different stages as and when required.
+* [Github](https://github.com/) Github is used a repository for the project.
+* [Pic Resize](https://picresize.com/) Pic Resize was used to resize the images.
+* [Free Logo Design](https://www.freelogodesign.org/) Favicon was designed by using Free logo design.
+
