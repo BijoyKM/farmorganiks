@@ -1,6 +1,6 @@
 # Farm Organiks - Harvesting Goodness
 
-This is a website for a fictional, family owned farm which only harvests organic produce in County Louth. In addition to this, the 70 acres of farm provides a special organic farming and picnic experience. The purpose of this website is to provide an online presence for the farm where customer can get information,about the farm, the organic produce they sell, and the farm trips available.
+This is a website for a fictional, family owned farm which only harvests organic produce in County Louth. In addition to this, the 70 acres of farm provides a special organic farming and picnic experience. The purpose of this website is to provide an online presence for the farm where customer can get information, about the farm, the organic produce they sell, and the various farm trips available.
 
 ![Farm Organiks Responsive Image](/assets/images/readmeimages/farm-organiks-responsive.jpg "Farm Organiks Responsive Image")
 The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmorganiks)
@@ -43,6 +43,12 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 * The information can be accessed on all kinds of devices.
 
 # 3. Structure
-
+* Users will find that the single page website with four navigation items which is common to most websites is simply laid out with easy organisation of information.
+* The fixed nav bar has a logo on the left and nav items on the right which are meaningfully named and evenly spaced.
+* The Home page contains brief information introducing the business.
+* The Shop Produce section lays out the list of all available organic produce and prices.
+* The Visit Farm section provides information of activities can be done on the farm. It also has Gallery and farm videos.
+* The Contact Us section provide the users with a multi use form and location map for the business.
+* The footer section provides information to the users of the Opening hours, social media links to follow the business. It also provides the disclaimer notice.
 
 # Features
