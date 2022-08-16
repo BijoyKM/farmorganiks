@@ -51,4 +51,12 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 * The Contact Us section provide the users with a multi use form and location map for the business.
 * The footer section provides information to the users of the Opening hours, social media links to follow the business. It also provides the disclaimer notice.
 
+# 4. Skeleton
+## Wireframes
+The Wireframes were made by Balsamiq.
+* [Home](/assets/images/readmeimages/Home.jpg)
+* [Shop Produce](/assets/images/readmeimages/ShopProduce.jpg)
+* [Farm Trip](/assets/images/readmeimages/FarmTrip.jpg)
+* [Farm Video](/assets/images/readmeimages/FarmVideo.jpg)
+* [Contact Us](/assets/images/readmeimages/ContactUs.jpg)
 # Features
