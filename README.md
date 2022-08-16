@@ -9,9 +9,10 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
 - [Technologies Used](#tecnologies-used)
-- Testing
+- [Testing](#testing)
 - Deployment
 - Credits
+- Acknowledgments
 
 # User Experience (UX)
 ## User Stories
@@ -75,12 +76,18 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 2. CSS
 
 * ## Misc. Software
-* [Google Fonts](https://fonts.google.com/)  'Lato' and 'Oswald' fonts are used throughout the website.
-* [Google Maps](https://maps.google.com/) Location map is used from Google Maps.
-* [Font Awesome](https://fontawesome.com/) Social media icons are downloaded from Font Awesome.
-* [Balsamiq](https://balsamiq.com/) Wireframes are built in Basamiq.
-* [Gitpod](https://gitpod.io/) Gitpod was used as environment, and code was pushed to Github.It is used for version control as well as it allows to commit the code at different stages as and when required.
-* [Github](https://github.com/) Github is used a repository for the project.
-* [Pic Resize](https://picresize.com/) Pic Resize was used to resize the images.
-* [Free Logo Design](https://www.freelogodesign.org/) Favicon was designed by using Free logo design.
+* [Google Fonts](https://fonts.google.com/) : 'Lato' and 'Oswald' fonts are used throughout the website.
+* [Google Maps](https://maps.google.com/) : Location map is used from Google Maps.
+* [Font Awesome](https://fontawesome.com/) : Social media icons are downloaded from Font Awesome.
+* [Balsamiq](https://balsamiq.com/) : Wireframes are built in Basamiq.
+* [Gitpod](https://gitpod.io/) : Gitpod was used as environment, and code was pushed to Github.It is used for version control as well as it allows to commit the code at different stages as and when required.
+* [Github](https://github.com/) : Github is used a repository for the project.
+* [Pic Resize](https://picresize.com/) : Pic Resize was used to resize the images.
+* [Free Logo Design](https://www.freelogodesign.org/) : Favicon was designed by using Free logo design.
 
+# Testing
+* ## HTML Validator
+
+* ## CSS Validator
+
+* ## Lighthouse
