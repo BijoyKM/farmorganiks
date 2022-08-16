@@ -8,7 +8,6 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 # Index – Table of Contents
 - [User Experience (UX)](#user-experience-ux)
 - [Features](#features)
-- [Design](#design)
 - Technologies Used
 - Testing
 - Deployment
@@ -59,4 +58,13 @@ The Wireframes were made by Balsamiq.
 * [Farm Trip](/assets/images/readmeimages/FarmTrip.jpg)
 * [Farm Video](/assets/images/readmeimages/FarmVideo.jpg)
 * [Contact Us](/assets/images/readmeimages/ContactUs.jpg)
+
+# 5. Surface
+* ## Color
+![Color Scheme Image](/assets/images/readmeimages/ColorScheme.jpg "Color Scheme Image")
+The colour theme is based on the Farm Organiks logo which is a green color: #003300. For the website background white color: #ffffff is used. For borders of containers various green shades like #012e26 and rgb(22, 190, 140) are used. For container background color rgba(240, 127, 22, 0.493), rgba(153, 255, 153, 0.500) and rgba(208, 221, 159, 0.493) is used. For Social media icons Charcoal Grey color: #3a3a3a is used. The color scheme is used in accordance of the business to reflect the natural green assoicated with organic produce.
+
+* ## Font
+'Lato' and 'Oswald' fonts are used for this website and were imported from Google fonts.
+
 # Features
