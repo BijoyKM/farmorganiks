@@ -87,7 +87,11 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 
 # Testing
 * ## HTML Validator
-
+At various stages HTML Validator testing was done.
+![HTML Validator](/assets/images/readmeimages/HtmlValidator.jpg "HTML Validator Image")
 * ## CSS Validator
-
+At various stages CSS Validator testing was done.
+![CSS Validator](/assets/images/readmeimages/CssValidator.jpg "CSS Validator Image")
 * ## Lighthouse
+At various stages Lighthouse testing was done.
+![Lighthouse Testing](/assets/images/readmeimages/LighthouseTesting.jpg "Lighthouse Testing Image")
