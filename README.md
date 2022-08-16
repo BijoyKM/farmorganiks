@@ -38,6 +38,11 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 * Also with the help of the website, the business can bring in more customers to the farm to experience healthy and organic way of life.
 
 # 2. Scope
+* Required business information of Farm Organiks is given with the help of easy to navigate sections in terms to user experience.
+* The single page website is plain and simple and information provided is clear and concise.
+* The information can be accessed on all kinds of devices.
+
+# 3. Structure
 
 
 # Features
