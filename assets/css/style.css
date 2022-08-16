@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color:#ffffff;
+    background-color: #ffffff;
     font-family: 'Lato', sans-serif;
     font-family: 'Oswald', sans-serif;
     border-bottom: 1px solid #012e26;
@@ -21,7 +21,7 @@ body {
     top: 0;
     width: 100%;
     position: fixed;
-    background-color:#ffffff;
+    background-color: #ffffff;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -30,8 +30,7 @@ body {
 }
 
 #topbarlogo {
-    color:#003300;
-/* color: #012e26; */
+    color: #003300;
     font-size: 300%;
     text-transform: uppercase;
     letter-spacing: 3px;
@@ -41,18 +40,18 @@ body {
 }
 
 nav {
-    
+
     float: right;
     font-size: 100%;
     letter-spacing: 3px;
 }
 
 #navmenu li {
-    
+
     float: left;
     list-style-type: none;
     margin-right: 30px;
-    font-size:larger;
+    font-size: larger;
 }
 
 #topbarlogo,
@@ -62,7 +61,7 @@ nav {
 
 #navmenu a {
     text-decoration: none;
-    color:#003300;
+    color: #003300;
 
 }
 
@@ -94,9 +93,8 @@ nav {
 
 
 .welcome-text {
-    
-color: #003300;
-background-color: rgba(240, 127, 22, 0.493);
+    color: #ffffff;
+    background-color: rgba(240, 127, 22, 0.493);
     border: 10px solid rgb(22, 190, 140);
     border-radius: 50px;
     box-shadow: 5px 10px;
@@ -127,11 +125,11 @@ background-color: rgba(240, 127, 22, 0.493);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+
 }
 
 #shop-produce {
-   
+
     font-size: 250%;
     top: 200px;
     line-height: 425%;
@@ -251,7 +249,6 @@ background-color: rgba(240, 127, 22, 0.493);
     max-width: 800px;
     margin: 3em auto;
     border: 6px solid #012e26;
-    /* overflow: hidden; */
 }
 
 .video-first {
@@ -261,7 +258,6 @@ background-color: rgba(240, 127, 22, 0.493);
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
-    /* overflow: hidden; */
     display: block;
 }
 
@@ -271,7 +267,6 @@ background-color: rgba(240, 127, 22, 0.493);
     width: 100%;
     padding-bottom: 56.25%;
     height: 0;
-    /* overflow: hidden; */
 }
 
 .video-first iframe {
@@ -280,7 +275,7 @@ background-color: rgba(240, 127, 22, 0.493);
     left: 0;
     width: 100%;
     height: 100%;
-    overflow-y:hidden;
+    overflow-y: hidden;
 }
 
 .video-second iframe {
@@ -291,6 +286,7 @@ background-color: rgba(240, 127, 22, 0.493);
     height: 100%;
     overflow: hidden;
 }
+
 /* contact us */
 
 
@@ -310,23 +306,23 @@ background-color: rgba(240, 127, 22, 0.493);
     margin: 50px 50px;
 }
 
-.form-address-container{
+.form-address-container {
     height: 600px;
-    width:100%;
+    width: 100%;
     background: url(../images/contact.jpg) no-repeat center center;
     overflow: hidden;
     display: flex;
     flex-direction: row;
-	justify-content: space-evenly;
-	align-items: center;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 /* form section */
 
 .contact-container {
-    
+
     background-color: rgba(208, 221, 159, 0.493);
-    
+
     width: 80%;
     height: 50%;
     display: flex;
@@ -344,13 +340,14 @@ background-color: rgba(240, 127, 22, 0.493);
     font-size: 100%;
     font-weight: 600;
     width: 100%;
-    
+
 }
 
-.text-item{
+.text-item {
     height: 1.50rem;
     border: 2px solid black;
 }
+
 .text-item:hover {
     border-color: #ffffff;
     border: 2px solid rgb(22, 190, 140);
@@ -364,7 +361,7 @@ background-color: rgba(240, 127, 22, 0.493);
 
 .text-box-item {
     border: 2px solid black;
-    
+
 }
 
 .text-box-item:hover {
@@ -372,13 +369,14 @@ background-color: rgba(240, 127, 22, 0.493);
     border: 2px solid rgb(22, 190, 140);
 }
 
-.submit-item{
+.submit-item {
     font-size: 100%;
     font-weight: 600;
     border: 2px solid black;
     padding: 10px;
     border-radius: 10px;
 }
+
 .submit-item:hover {
     border-color: #ffffff;
     border: 2px solid rgb(22, 190, 140);
@@ -388,9 +386,10 @@ background-color: rgba(240, 127, 22, 0.493);
 
 .footer-container {
     display: flex;
-	justify-content: space-around;
-    
+    justify-content: space-around;
+
 }
+
 .footer-container h2 {
     font-size: 2em;
     letter-spacing: 1px;
@@ -400,16 +399,16 @@ background-color: rgba(240, 127, 22, 0.493);
 /* location map */
 
 .address-map {
-    
+
     background-color: rgba(208, 221, 159, 0.493);
-    width:min-content;
-    height:min-content;
+    width: min-content;
+    height: min-content;
     border: 10px solid rgb(22, 190, 140);
     box-shadow: 5px 10px;
     align-items: center;
     border-radius: 50px;
     padding: 10px 20px 25px 25px;
-    
+
 }
 
 .address-map h2 {
@@ -418,32 +417,35 @@ background-color: rgba(240, 127, 22, 0.493);
     margin: 0;
     text-align: center;
 }
+
 /* social networks */
 
 .social-networks ul {
     text-align: center;
-} 
+}
+
 .social-networks li {
     display: inline;
     list-style-type: none;
-    
-} 
+
+}
 
 .social-networks i {
     text-align: center;
     font-size: 200%;
     margin: 0.75rem;
-    padding:0;
+    padding: 0;
     color: #3a3a3a;
-    
+
 }
+
 .social-networks h2 {
     text-align: center;
 }
 
 footer {
-padding-top: 10px;
-padding-bottom: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 footer h2 {
@@ -454,6 +456,7 @@ footer p {
     font-size: 1.25em;
     letter-spacing: 1px;
 }
+
 /* disclaimer */
 .disc-text {
     text-align: center;
@@ -466,9 +469,9 @@ footer p {
 /* Media Queries */
 /* Media query for devices with max width 1200px and below */
 @media screen and (max-width: 1200px) {
-    
+
     .form-address-container {
- 
+
         background-size: cover;
         height: 1200px;
         display: flex;
@@ -477,25 +480,28 @@ footer p {
         align-items: center;
         align-content: center;
     }
+
     .contact-container {
         width: 80%;
         height: 90%;
 
+    }
 }
-}
+
 /* Media query for devices with max width 950px and below */
 @media screen and (max-width: 950px) {
     .hero-image {
         background-size: cover;
         height: 950px;
     }
+
     .welcome-text {
         width: fit-content;
         height: fit-content;
         padding: 0;
         font-size: 200%;
     }
-    
+
     .menu-image {
         background-size: cover;
         height: 1200px;
@@ -506,13 +512,16 @@ footer p {
         align-content: center;
         margin: 0 auto;
     }
+
     .veggie-box {
         padding-left: 10px;
         padding-right: 10px;
     }
+
     .veggie-box h3 {
         margin-top: 0;
     }
+
     #farm-trip-gallery {
         column-count: 2;
     }
@@ -532,70 +541,80 @@ footer p {
     nav {
         letter-spacing: 0;
     }
+
     #navmenu li {
         float: left;
         list-style-type: none;
         margin-right: 25px;
-        font-size:1.25rem;
+        font-size: 1.25rem;
     }
+
     .hero-image {
         background-size: cover;
         display: flex;
-    justify-content: center;
-    align-items: center;
+        justify-content: center;
         align-items: center;
-        /* height: 950px; */
-    } 
+        align-items: center;
+    }
+
     .welcome-text {
         font-size: 175%;
     }
+
     #aboutus-text {
         margin: 0;
     }
+
     #shop-produce {
         padding-top: 250px;
         font-size: 400%;
         margin: 0;
-        top:180px;
+        top: 180px;
     }
+
     #visit-farms {
         padding-top: 250px;
     }
+
     #visit-farms h2 {
         font-size: 200%;
         line-height: 300%;
     }
-   
+
     #farm-trip-gallery {
-   column-count: 1;
+        column-count: 1;
     }
-    
+
     .video-box {
         max-width: 300px;
     }
+
     #contact-us {
         padding-top: 250px;
         line-height: 2em;
     }
 
     .contact-container {
-    width: 17rem;
-    height: 33rem;
-    padding: 0.25rem 0 0.25rem 1rem;
+        width: 17rem;
+        height: 33rem;
+        padding: 0.25rem 0 0.25rem 1rem;
     }
 
     .contact-container h2 {
         font-size: 1.25rem;
     }
+
     .text-box-item {
         width: 75%;
         height: 80%;
     }
+
     .address-map {
         width: 17rem;
         height: 33rem;
         padding: 0.25rem 1rem 0.25rem 1rem;
     }
+
     .map-iframe {
         width: 15rem;
         height: 29rem;
@@ -603,30 +622,34 @@ footer p {
 
     }
 }
+
 /* Media query for devices with max width 405px and below */
 @media screen and (max-width: 405px) {
     #navmenu li {
-        font-size:1rem;
+        font-size: 1rem;
     }
 }
+
 /* Media query for devices with max width 375px and below */
 @media screen and (max-width: 375px) {
     #topbarlogo {
         font-size: 200%;
     }
+
     nav {
         letter-spacing: 0;
     }
+
     #navmenu li {
         float: left;
         list-style-type: none;
         margin-right: 25px;
-        font-size:1rem;
+        font-size: 1rem;
     }
-    
+
     #aboutus-text {
         margin: 10px 50px;
-        
+
     }
 
     #shop-produce {
@@ -638,17 +661,21 @@ footer p {
     .veggie-box h3 {
         font-size: 100%;
     }
+
     .veggies {
         font-size: 1.25em;
     }
+
     .fruit-box h3 {
         font-size: 100%;
     }
+
     .fruits {
         font-size: 1.25em;
         margin-top: 1%;
-        
+
     }
+
     .fruits li {
         padding: 0;
         text-align: left;
@@ -656,13 +683,13 @@ footer p {
 
     #visit-farms {
         padding-top: 10rem;
-        /* line-height: 2rem; */
-    
+
     }
 
     #contact-us {
         padding-top: 10rem;
     }
+
     .map-iframe {
         width: 15rem;
         height: 29rem;
