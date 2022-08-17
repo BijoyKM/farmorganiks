@@ -95,12 +95,23 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 
 *   Shop Produce section provides information about all the products available with their prices in the farm shop. The background image consists of various fruits and vegetables, continuing the organic theme and moto of the business.
 *   For users ease of usage there are two menu sections.
-*   Veggies menu section has all available organic vegetables and Fruits/Misc. menu section has all fruits and other available produces with prices. These menu sections are responsive to different media queries and alligns vertically when displayed on smaller screen sizes. The overall size of menu box is reduced for very small screen size.
+*   Veggies menu section has all available organic vegetables and Fruits/Misc. menu section has all fruits and other available produces with prices. These menu sections are responsive to different media queries and alligns vertically when displayed on smaller screen sizes. The overall size of menu box is also reduced for very small screen size.
 *   The color of the border for these Veggies/Fruits.Misc sections are different shades of green. This is similar to all other boxes as well like Contact Us etc. to create a consistent feel thorughout the website.
 
+### Visit Farms
 
+![Visit Farms Image](/assets/images/readmeimages/VisitFarmImage.jpg "Visit Farms Image")
 
-### 
+*   Visit Farm section provides important information to users about the availability of Farm Trips.
+*   Customers can choose various activities during these trips like picking their favourite berries or digging out potatoes or just enjoy a peaceful walk thorugh lush green farms. They even can have picnics and can takeaway with them one of most green and organic experience. 
+*   This section also has eight images in gallery which are selected in same theme as rest of the website. These images give customers a visual concept of farm trip discussed in this section. These images are responsive to differnt screens sizes. As the screen size decreases the number of columns reduces from four to two and then to one for very small screens.
+
+#### Farming Videos
+
+![Farming Video Image](/assets/images/readmeimages/FarmVideoImage.jpg "Farming Video Image")
+
+*   Under Visit Farms there are two Youtube media files as well under the heading "Farming Videos". These videos introduce customers to the fascinating world of farming and farm machinery used nowadays. These videos are also responsive to smaller screens as they become smaller in size.
+
 
 # Technologies Used
 
