@@ -139,6 +139,10 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 
 ![Footer Image](/assets/images/readmeimages/FooterImage.jpg "Footer Image")
 
+*   The Footer section consists the 'Opening Hours' information for the users. It also contains 'Stay in touch with us' Social Networks links for the customers to closely follow the business.
+*   All links for 'Stay in touch with us' opens in a new target window.
+*   It contains the Disclaimer notice.
+*   The Footer section is responsive as the 'Opening Hours' and Social Networks link alligns vertically when the screen size reduces.
 
 # Technologies Used
 
