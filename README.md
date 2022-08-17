@@ -92,6 +92,9 @@ At various stages HTML Validator testing was done.
 * ## CSS Validator
 At various stages CSS Validator testing was done.
 ![CSS Validator](/assets/images/readmeimages/CssValidator.jpg "CSS Validator Image")
+
+The below warning during the test is due to imported Google fonts. CSS validator is informing that it has not checked imported style sheets which is Google Fonts in this case.
+![CSS Validator Warning](/assets/images/readmeimages/CssValidatorWarning.jpg "CSS Validator Warning Image")
 * ## Lighthouse
 At various stages Lighthouse testing was done.
 ![Lighthouse Testing](/assets/images/readmeimages/LighthouseTesting.jpg "Lighthouse Testing Image")
