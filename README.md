@@ -12,7 +12,7 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 - [Testing](#testing)
 - Deployment
 - Credits
-- Acknowledgments
+- [Acknowledgments](#acknowledgments)
 
 # User Experience (UX)
 ## User Stories
@@ -183,3 +183,11 @@ The website was tested on the following browsers:
 
 * ## Manual Testing
 
+
+# Acknowledgments
+
+I would like to thank and acknowledge following people:
+* My Mentor Rahul Lakhanpal for all his feedback, guidance and support for this project. His patience and helpful advice really calmed the nervous meeting sessions.
+* My wife and daughter who gave up most of their summer vacation for the project but still helped me with proof readings.
+* To Code Institute, Kasia and Kenan for their helpful advice during the weekly stand-up meetings.
+* To the Slack Community and also MSLETB A and B group students.
