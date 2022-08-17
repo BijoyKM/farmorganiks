@@ -69,11 +69,44 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 'Lato' and 'Oswald' fonts are used for this website and were imported from Google fonts.
 
 # Features
-# Tecnologies Used
+## Existing Features
+### Navigation Bar
+![Navigation Bar Image](/assets/images/readmeimages/NavigationBar.jpg "Navigation Bar Image")
+* The Navigation Bar is fixed for this single page website. 
+* It has a simple 'FARM ORGANIKS' logo on the left and on the right it has three equally spaced navigation items 'Shop Produce', 'Visit Farms' and 'Contact Us'. 
+* The 'FARM ORGANIKS' logo also acts as a Home button as clicking on it brings to the top of the webpage. 
+* The nav items on the right are reponsive on multiple media queries. For smaller screens 'Shop Produce', 'Visit Farms' and 'Contact Us' all comes below the 'FARM ORGANIKS' logo. And also reduces in font sizes for very small screens.
+* When the mouse is hovered on 'Shop Produce', 'Visit Farms' and 'Contact Us' links an underline appears on the respective link for easy navigation.
+* 'Shop Produce' link takes the user to the Produce list with prices. 'Visit Farms' link takes the user to a Farm visit section with Gallery with eight images. It also has couple of farm videos. 'Contact Us' link brings user to a Form where user can place order for Collection or book a Farm trip or leave a Feedback. It also provides a Google map for the location of the farm.
+
+### Hero Image
+
+![Hero2 Bar Image](/assets/images/readmeimages/Hero2image.jpg "Hero2 Image")
+
+*   It has an image for carrots and herbs resemebling the theme of the business of organic produces. It has a Welcome message as well for the new and old user customers informing the moto of the business "Welcome to Farm Organiks. Harvesting Goodness". This is also the landing page or Home page. If the user clicks on 'FARM ORGANIKS' logo anytime, it will bring to this section.
+
+![About Us Image](/assets/images/readmeimages/AboutUs.jpg "About Us Image")
+
+*   Below the Hero image, About Us section is there introducing the customers about the Family owned business.
+
+### Shop Produce
+
+![Shop Produce Image](/assets/images/readmeimages/ShopProduceImage.jpg "Shop Produce Image")
+
+*   Shop Produce section provides information about all the products available with their prices in the farm shop. The background image consists of various fruits and vegetables, continuing the organic theme and moto of the business.
+*   For users ease of usage there are two menu sections.
+*   Veggies menu section has all available organic vegetables and Fruits/Misc. menu section has all fruits and other available produces with prices. These menu sections are responsive to different media queries and alligns vertically when displayed on smaller screen sizes. The overall size of menu box is reduced for very small screen size.
+*   The color of the border for these Veggies/Fruits.Misc sections are different shades of green. This is similar to all other boxes as well like Contact Us etc. to create a consistent feel thorughout the website.
+
+
+
+### 
+
+# Technologies Used
 
 * ## Languages
-1. HTML
-2. CSS
+1. [HTML5](https://en.wikipedia.org/wiki/HTML5)
+2. [CSS3](https://en.wikipedia.org/wiki/CSS)
 
 * ## Misc. Software
 * [Google Fonts](https://fonts.google.com/) : 'Lato' and 'Oswald' fonts are used throughout the website.
@@ -83,7 +116,8 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
 * [Gitpod](https://gitpod.io/) : Gitpod was used as environment, and code was pushed to Github.It is used for version control as well as it allows to commit the code at different stages as and when required.
 * [Github](https://github.com/) : Github is used a repository for the project.
 * [Pic Resize](https://picresize.com/) : Pic Resize was used to resize the images.
-* [Free Logo Design](https://www.freelogodesign.org/) : Favicon was designed by using Free logo design.
+* [Free Logo Design](https://www.freelogodesign.org/) : Farm Organiks Logo used for Favicon icon was designed by using Free logo design.
+* [Favicon](http://favicon.io/) : Favicon generator was used to create the Favicon icon.
 
 # Testing
 * ## HTML Validator
@@ -98,3 +132,12 @@ The below warning during the test is due to imported Google fonts. CSS validator
 * ## Lighthouse
 At various stages Lighthouse testing was done.
 ![Lighthouse Testing](/assets/images/readmeimages/LighthouseTesting.jpg "Lighthouse Testing Image")
+
+* ## Browser Compatability
+The website was tested on the following browsers:
+* Google Chrome : Version 104.0.5112.102 (Official Build) (64-bit)
+* Mozilla Firefox : Version 103.0.2 (64-bit)
+* Microsoft Edge : Version 104.0.1293.54 (Official build) (64-bit)
+
+* ## Manual Testing
+
