@@ -10,7 +10,7 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 - [Features](#features)
 - [Technologies Used](#tecnologies-used)
 - [Testing](#testing)
-- Deployment
+- [Deployment](#deployment)
 - [Credits](#credits)
 - [Acknowledgments](#acknowledgments)
 
@@ -183,6 +183,16 @@ The website was tested on the following browsers:
 
 * ## Manual Testing
 
+# Deployment
+The website is deployed using GitHub Pages:
+1. Once you are in your repository, click on Settings.
+2. Click on GitHub Pages.
+3. Click on Branches and select "main" from the dropdown.
+4. Once "main" is selected, the page will be refreshed automatically and the page will indicate successful deployment and the link to the address will appear.
+5. Further changes will automatically deployed when you will be using 'git push' command from your gitpod environment.
+
+The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmorganiks)
+
 # Credits
 
 * ## Images
@@ -207,5 +217,5 @@ The website was tested on the following browsers:
 I would like to thank and acknowledge following people:
 * My Mentor Rahul Lakhanpal for all his feedback, guidance and support for this project. His patience and helpful advice really calmed the nervous meeting sessions.
 * My wife and daughter who gave up most of their summer vacation for the project but still helped me with proof readings.
-* To Code Institute, Kasia and Kenan for their helpful advice during the weekly stand-up meetings.
-* To the Slack Community and also MSLETB A and B group students.
+* Code Institute, Kasia and Kenan for their helpful advice during the weekly stand-up meetings.
+* Slack Community and also MSLETB A and B group students.
