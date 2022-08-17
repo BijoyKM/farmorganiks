@@ -538,10 +538,6 @@ footer p {
 /* Media query for devices with max width 780px and below */
 @media screen and (max-width: 780px) {
     #navmenu li {
-        /* float: left;
-        list-style-type: none;
-        margin-right: 25px;
-        font-size: 1rem; */
         margin-inline-start: 5px;
     }
 
