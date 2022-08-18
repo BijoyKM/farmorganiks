@@ -535,6 +535,7 @@ footer p {
         align-items: center;
     }
 }
+
 /* Media query for devices with max width 780px and below */
 @media screen and (max-width: 780px) {
     #navmenu li {
