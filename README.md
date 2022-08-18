@@ -129,6 +129,7 @@ The colour theme is based on the Farm Organiks logo which is a green color: #003
     3. Choose a radio button stating the purpose of the form filled.
     4. Text box with column and rows to enter a brief description. For eg. if a Collection order is placed, provide the names of produce or if Farm Trip booking is required, provide the date and time, with the number of attendees.
 
+*   When mouse is hovered on any text boxes in the form, the border changes its colour from black to green.
 
 *   The Form container has a border of different green shades similar to the other containers. The Form container is responsive as the screen size reduces, the form container's size also reflects accordingly. The Text box properties are responsive as well as the number of columns and rows reduces as the screen size reduces.
 
@@ -182,6 +183,60 @@ The website was tested on the following browsers:
 * Microsoft Edge : Version 104.0.1293.54 (Official build) (64-bit)
 
 * ## Manual Testing
+The following was manually tested and resulted in Pass:
+*   ### Navigation Bar
+    * The Farm Organiks Logo when clicked brings to the home page or top of the webpage.
+    * The Nav items 'Shop Produce', 'Visit Farms' and 'Contact Us' when clicked brings to the respective sections of the website.
+    * When mouse is hovered on the nav items, an underline appears for that respective link for easy navigation.
+    * The nav items are responsive in nature. For smaller screens 'Shop Produce', 'Visit Farms' and 'Contact Us' all comes below the 'FARM ORGANIKS' logo in a single line. They are also reduced in font size for very small screens.
+
+*   ### Hero Image and Welcome Message
+    * The Welcome Message is responsive for smaller screen sizes.
+
+*   ### Shop Produce
+    * The 'Veggies' and 'Fruits/Misc' menu sections are responsive to different media queries and align vertically when displayed on smaller screen sizes. The overall size of the menu box is also reduced for a very small screen size.
+
+*   ### Visit Farms
+    * The Gallery images are responsive to smaller screens sizes. As the screen size decreases the number of columns reduces from four to two and then to one for very small screens.
+    * Farm Videos when clicked plays the video as expected. They are also responsive to smaller screens as they become smaller in size.
+
+*   ### Contact Us
+    * The Form requires all fields to be filled before it allows submission.
+    * When Submit button is clicked it submits information to the Code Institute Form dump provided all fields are filled.
+    * When mouse is hovered on any text boxes in the form, the border changes its colour from black to green.
+    * The Text box properties are responsive as well as the number of columns and rows reduces as the screen size reduces.
+    * The Form container is responsive as the screen size reduces, the form container's size also reflects accordingly.
+
+*   ### Getting Here Location Map
+    * On the Location Map the plus/minus sign, Show Satelite Imagery, Keyboard shortcuts, Terms of Use, Reports a Map error and View Larger Map also works as expected. 
+    * Also View Larger Map works as expected. 
+    * The mouse Drag function also works as expected.
+    * The Location map container is responsive and its size reduces as the screen size reduces. It also aligns vertically under the Form when the screen size reduces.
+
+*   ### Footer
+    * All links for 'Stay in touch with us' social media open in a new target window.
+    * The Footer section is responsive as the 'Opening Hours' and Social Networks link align vertically when the screen size reduces.
+
+*   ## Bugs
+
+    * ### Fixed Bugs
+    Here are some of the bugs which were fixed during the making of the project.
+    1. The Gallery images were resized to fix the bottom aligning issue.
+      ![Gallery Error Image](/assets/images/readmeimages/GalleryImageErr.jpg "Gallery Error Image")
+
+    2. The Map iframe and container were resized so that the map can fit inside the box and be responsive.
+
+       ![Map Error Image](/assets/images/readmeimages/MapErr.jpg "Map Error Image")
+
+
+
+*   ### Known Bugs
+    * It is observed that upon scrolling down, the videos scrolls on top of the fixed navbar. It seems like a overflow issue.
+    ![Video Scroll Error](/assets/images/readmeimages/VideoScrollErr.jpg "Video Scroll Error")
+
+*   ## Future Implementation
+    * I would like to implement downloadable pdf files for Farm Trip Maps and Produce Menu for customers. 
+    * I would like to resolve the Known bug also where the video scrolls on top of the fixed navbar.
 
 # Deployment
 The website is deployed using GitHub Pages:
@@ -201,6 +256,7 @@ The website can be viewed here. [Farm Organiks](https://bijoykm.github.io/farmor
 *   Videos used were taken from [Youtube](https://www.youtube.com/).
 *   [Favicon](https://favicon.io/) generator was used to create Favicon.
 *   [Pic Resize](https://picresize.com/) was used to resize the images.
+*   [Am I Responsive](https://ui.dev/amiresponsive) was used to generate the website responsive image used in README.MD
 
 * ## Coding
 
